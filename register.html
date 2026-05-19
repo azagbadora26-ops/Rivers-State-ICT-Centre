@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Rivers State ICT Centre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Rivers ICT Centre</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="register" id="register">
+            <h2>Course Registration</h2>
+
+            <form id="registrationForm">
+
+                <input type="text" id="name" placeholder="Full Name" required>
+
+                <input type="email" id="email" placeholder="Email Address" required>
+
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+
+                <select id="course" required>
+                    <option value="">Select Course</option>
+                    <option>Data Analytics</option>
+                    <option>Cybersecurity</option>
+                    <option>Web Application</option>
+                    <option>AI</option>
+                    <option>Robotics</option>
+                    <option>Cloud Computing</option>
+                    <option>Graphics Design</option>
+                </select>
+
+                <button type="submit">Submit Registration</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Rivers State ICT Centre</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
