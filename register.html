@@ -6,7 +6,7 @@
     <title>Register - Rivers State ICT Centre</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="subpage">
     <header>
         <nav class="navbar">
             <h1>Rivers ICT Centre</h1>
@@ -25,19 +25,23 @@
             <h2>Course Registration</h2>
 
             <form id="registrationForm">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
 
-                <input type="text" id="name" placeholder="Full Name" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
 
-                <input type="email" id="email" placeholder="Email Address" required>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
 
-                <input type="tel" id="phone" placeholder="Phone Number" required>
-
+                <label for="course">Select Course</label>
                 <select id="course" required>
                     <option value="">Select Course</option>
                     <option>Data Analytics</option>
                     <option>Cybersecurity</option>
                     <option>Web Application</option>
                     <option>AI</option>
+                    <option>IoT</option>
                     <option>Robotics</option>
                     <option>Cloud Computing</option>
                     <option>Graphics Design</option>
