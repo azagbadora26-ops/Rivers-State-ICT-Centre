@@ -6,7 +6,7 @@
     <title>Contact - Rivers State ICT Centre</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="subpage">
     <header>
         <nav class="navbar">
             <h1>Rivers ICT Centre</h1>
@@ -23,10 +23,25 @@
     <main>
         <section class="contact" id="contact">
             <h2>Contact Us</h2>
-
-            <p><strong>Address:</strong> Port Harcourt, Rivers State</p>
-            <p><strong>Phone:</strong> +234 800 000 0000</p>
-            <p><strong>Email:</strong> info@riversictcentre.com</p>
+            <div class="stage">
+            <div class="box">
+                <p><strong>Address:</strong> Port Harcourt, Rivers State</p>
+                <p><strong>Phone:</strong> +234 800 000 0000</p>
+                <p><strong>Email:</strong> info@riversictcentre.com</p>
+            </div>  
+            <div class="box">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            </div>
         </section>
     </main>
 
